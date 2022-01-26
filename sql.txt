@@ -1,0 +1,313 @@
+-- phpMyAdmin SQL Dump
+-- version 4.8.5
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost:8889
+-- Generation Time: Sep 20, 2019 at 03:59 PM
+-- Server version: 5.7.25
+-- PHP Version: 7.3.1
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `u221194601_brighter_hires`
+--
+CREATE DATABASE IF NOT EXISTS `u221194601_brighter_hires` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `u221194601_brighter_hires`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `listed_jobs`
+--
+
+DROP TABLE IF EXISTS `listed_jobs`;
+CREATE TABLE `listed_jobs` (
+  `sql_id` bigint(255) NOT NULL,
+  `id` bigint(255) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `company_name` varchar(255) NOT NULL,
+  `job_title` varchar(255) NOT NULL,
+  `year` int(4) NOT NULL,
+  `month` int(2) NOT NULL,
+  `day` int(2) NOT NULL,
+  `job_description` varchar(12000) NOT NULL,
+  `company_logo` varchar(255) NOT NULL,
+  `contact_email` varchar(350) NOT NULL,
+  `contact_phone` varchar(255) NOT NULL,
+  `further_contact_details` varchar(12000) NOT NULL,
+  `job_location` varchar(255) NOT NULL,
+  `job_postcode` varchar(255) NOT NULL,
+  `working_hours` varchar(255) NOT NULL,
+  `job_cat_1` varchar(255) NOT NULL,
+  `unix_time` int(64) NOT NULL,
+  `page_link` varchar(255) NOT NULL,
+  `listing_live` varchar(255) NOT NULL,
+  `stripe_id` varchar(255) NOT NULL,
+  `reporting_ips_array` varchar(255) NOT NULL,
+  `user_delete_marked` int(11) NOT NULL,
+  `last_updated` varchar(255) NOT NULL,
+  `view_count` bigint(255) NOT NULL,
+  `unix_expiry` varchar(255) NOT NULL,
+  `free_listing` int(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=ascii;
+
+--
+-- Dumping data for table `listed_jobs`
+--
+
+INSERT INTO `listed_jobs` (`sql_id`, `id`, `username`, `company_name`, `job_title`, `year`, `month`, `day`, `job_description`, `company_logo`, `contact_email`, `contact_phone`, `further_contact_details`, `job_location`, `job_postcode`, `working_hours`, `job_cat_1`, `unix_time`, `page_link`, `listing_live`, `stripe_id`, `reporting_ips_array`, `user_delete_marked`, `last_updated`, `view_count`, `unix_expiry`, `free_listing`) VALUES
+(1, 0, 'danny0', 'Mullen Mcclure Traders', 'whatever', 2019, 1, 31, 'Aliquip quam officia', '/user_uploads/company_logos/BDuhC8PNUm.png', 'tycy@mailinator.com', '+516-98-1725832', 'Ut modi sit nihil q', 'Voluptatem velit lorem velit aut dolore et ducimus optio ', 'In dolore qu', 'part_time', 'Secretarial', 1548958566, 'BDuhC8PNUm', '1', '', 5, '', 1, '0', 0, '', 0),
+(2, 1, 'danny0', 'the Surgery, inc.', 'Doctor', 0, 0, 0, 'doctor description', '/user_uploads/company_logos/N0gk20KxeM.png', 'balloonman@balloons.com', '647484746354647', 'blah', 'Bexhill, St Leonards on Sea', 'BX66 666', 'full_time', 'Automotive', 1536236257, 'nZ5kOSz5J9', '1', '', 1, '', 1, '09/04/19 @ 12:11', 1, '', 0),
+(3, 2, 'melon', '', 'Toilet Cleaner', 0, 0, 0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum ut lectus et ultricies. Sed arcu orci, porta sit amet porttitor non, mollis ac nisl. Etiam laoreet dui ac risus maximus, ac venenatis nunc euismod. Sed et eleifend orci, ac tincidunt sem. Fusce sit amet felis ut lorem congue dapibus. Maecenas nec lacus in enim faucibus consequat ac convallis tellus. Maecenas sed aliquet odio. Sed placerat iaculis lorem ut ultricies. Vestibulum posuere sapien quis sapien egestas elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aliquam tempor venenatis. In id leo a lorem congue rhoncus at id sapien. Phasellus consectetur, eros et porta posuere, dolor nunc hendrerit leo, lacinia euismod velit leo et nibh. Sed molestie felis eu diam interdum sagittis. Nullam quis ligula vitae metus vulputate tincidunt pharetra eget quam. Pellentesque mollis tellus sit amet ipsum congue, non condimentum velit molestie.\r\n\r\nAenean orci dui, aliquet vitae sagittis nec, porta ut diam. Vivamus consequat neque sed ipsum sodales imperdiet. Praesent sagittis eros eu sapien molestie, vitae congue arcu mollis. Quisque non lacus lorem. Nulla pretium ante sit amet neque eleifend porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consequat tortor efficitur mi commodo vestibulum. Sed ac odio sollicitudin, sollicitudin erat ut, sollicitudin orci. Mauris tincidunt nisl in egestas imperdiet. Suspendisse potenti. Proin gravida augue sed nisl tincidunt, eget egestas felis faucibus. Integer molestie purus at facilisis laoreet. Curabitur quis ante at diam vehicula fringilla. Aenean semper sagittis enim.\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum ut lectus et ultricies. Sed arcu orci, porta sit amet porttitor non, mollis ac nisl. Etiam laoreet dui ac risus maximus, ac venenatis nunc euismod. Sed et eleifend orci, ac tincidunt sem. Fusce sit amet felis ut lorem congue dapibus. Maecenas nec lacus in enim faucibus consequat ac convallis tellus. Maecenas sed aliquet odio. Sed placerat iaculis lorem ut ultricies. Vestibulum posuere sapien quis sapien egestas elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aliquam tempor venenatis. In id leo a lorem congue rhoncus at id sapien. Phasellus consectetur, eros et porta posuere, dolor nunc hendrerit leo, lacinia euismod velit leo et nibh. Sed molestie felis eu diam interdum sagittis. Nullam quis ligula vitae metus vulputate tincidunt pharetra eget quam. Pellentesque mollis tellus sit amet ipsum congue, non condimentum velit molestie.\r\n\r\nAenean orci dui, aliquet vitae sagittis nec, porta ut diam. Vivamus consequat neque sed ipsum sodales imperdiet. Praesent sagittis eros eu sapien molestie, vitae congue arcu mollis. Quisque non lacus lorem. Nulla pretium ante sit amet neque eleifend porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consequat tortor efficitur mi commodo vestibulum. Sed ac odio sollicitudin, sollicitudin erat ut, sollicitudin orci. Mauris tincidunt nisl in egestas imperdiet. Suspendisse potenti. Proin gravida augue sed nisl tincidunt, eget egestas felis faucibus. Integer molestie purus at facilisis laoreet. Curabitur quis ante at diam vehicula fringilla. Aenean semper sagittis enim.', '/user_uploads/company_logos/pk5JLHaDqT8.png', 'balloonman@balloons.com', '647484746354647', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum ut lectus et ultricies. Sed arcu orci, porta sit amet porttitor non, mollis ac nisl. Etiam laoreet dui ac risus maximus, ac venenatis nunc euismod. Sed et eleifend orci, ac tincidunt sem. Fusce sit amet felis ut lorem congue dapibus. Maecenas nec lacus in enim faucibus consequat ac convallis tellus. Maecenas sed aliquet odio. Sed placerat iaculis lorem ut ultricies. Vestibulum posuere sapien quis sapien egestas elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aliquam tempor venenatis. In id leo a lorem congue rhoncus at id sapien. Phasellus consectetur, eros et porta posuere, dolor nunc hendrerit leo, lacinia euismod velit leo et nibh. Sed molestie felis eu diam interdum sagittis. Nullam quis ligula vitae metus vulputate tincidunt pharetra eget quam. Pellentesque mollis tellus sit amet ipsum congue, non condimentum velit molestie.\r\n\r\nAenean orci dui, aliquet vitae sagittis nec, porta ut diam. Vivamus consequat neque sed ipsum sodales imperdiet. Praesent sagittis eros eu sapien molestie, vitae congue arcu mollis. Quisque non lacus lorem. Nulla pretium ante sit amet neque eleifend porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consequat tortor efficitur mi commodo vestibulum. Sed ac odio sollicitudin, sollicitudin erat ut, sollicitudin orci. Mauris tincidunt nisl in egestas imperdiet. Suspendisse potenti. Proin gravida augue sed nisl tincidunt, eget egestas felis faucibus. Integer molestie purus at facilisis laoreet. Curabitur quis ante at diam vehicula fringilla. Aenean semper sagittis enim.', 'Bexhill, St Leonards on Sea', 'BX66 666', 'zero_hours', 'Automotive', 1536236247, 'pk5JLHaDqT8', '1', '', 1, '[\"::10\",\"::18\",\"::1\"]', 0, '0', 30, '', 0),
+(4, 3, 'danny0', 'hello', 'asdf', 0, 0, 0, 'asdf\r\n\r\nasdfas\r\n\r\nasdf\r\n\r\nblah', '/user_uploads/company_logos/sZZrSH6DaxZ.png', 'fdsa', 'fda', 'fdsa', 'fdsa', 'fdsa', 'full_time', 'Aerospace', 1536236248, 'sZZrSH6DaxZ', '1', '', 1, '', 1, '02/04/19 @ 15:57', 0, '', 0),
+(5, 4, 'melon22', 'Megatech', 'Balloo Seller - Supervisor', 0, 0, 0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum ut lectus et ultricies. Sed arcu orci, porta sit amet porttitor non, mollis ac nisl. Etiam laoreet dui ac risus maximus, ac venenatis nunc euismod. Sed et eleifend orci, ac tincidunt sem. Fusce sit amet felis ut lorem congue dapibus. Maecenas nec lacus in enim faucibus consequat ac convallis tellus. Maecenas sed aliquet odio. Sed placerat iaculis lorem ut ultricies. Vestibulum posuere sapien quis sapien egestas elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aliquam tempor venenatis. In id leo a lorem congue rhoncus at id sapien. Phasellus consectetur, eros et porta posuere, dolor nunc hendrerit leo, lacinia euismod velit leo et nibh. Sed molestie felis eu diam interdum sagittis. Nullam quis ligula vitae metus vulputate tincidunt pharetra eget quam. Pellentesque mollis tellus sit amet ipsum congue, non condimentum velit molestie.\r\n\r\nAenean orci dui, aliquet vitae sagittis nec, porta ut diam. Vivamus consequat neque sed ipsum sodales imperdiet. Praesent sagittis eros eu sapien molestie, vitae congue arcu mollis. Quisque non lacus lorem. Nulla pretium ante sit amet neque eleifend porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consequat tortor efficitur mi commodo vestibulum. Sed ac odio sollicitudin, sollicitudin erat ut, sollicitudin orci. Mauris tincidunt nisl in egestas imperdiet. Suspendisse potenti. Proin gravida augue sed nisl tincidunt, eget egestas felis faucibus. Integer molestie purus at facilisis laoreet. Curabitur quis ante at diam vehicula fringilla. Aenean semper sagittis enim.\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum ut lectus et ultricies. Sed arcu orci, porta sit amet porttitor non, mollis ac nisl. Etiam laoreet dui ac risus maximus, ac venenatis nunc euismod. Sed et eleifend orci, ac tincidunt sem. Fusce sit amet felis ut lorem congue dapibus. Maecenas nec lacus in enim faucibus consequat ac convallis tellus. Maecenas sed aliquet odio. Sed placerat iaculis lorem ut ultricies. Vestibulum posuere sapien quis sapien egestas elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aliquam tempor venenatis. In id leo a lorem congue rhoncus at id sapien. Phasellus consectetur, eros et porta posuere, dolor nunc hendrerit leo, lacinia euismod velit leo et nibh. Sed molestie felis eu diam interdum sagittis. Nullam quis ligula vitae metus vulputate tincidunt pharetra eget quam. Pellentesque mollis tellus sit amet ipsum congue, non condimentum velit molestie.\r\n\r\nAenean orci dui, aliquet vitae sagittis nec, porta ut diam. Vivamus consequat neque sed ipsum sodales imperdiet. Praesent sagittis eros eu sapien molestie, vitae congue arcu mollis. Quisque non lacus lorem. Nulla pretium ante sit amet neque eleifend porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consequat tortor efficitur mi commodo vestibulum. Sed ac odio sollicitudin, sollicitudin erat ut, sollicitudin orci. Mauris tincidunt nisl in egestas imperdiet. Suspendisse potenti. Proin gravida augue sed nisl tincidunt, eget egestas felis faucibus. Integer molestie purus at facilisis laoreet. Curabitur quis ante at diam vehicula fringilla. Aenean semper sagittis enim.', '/user_uploads/company_logos/TwGD7Mc9f2N.png', 'balloonman@balloons.com', '647484746354647', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum ut lectus et ultricies. Sed arcu orci, porta sit amet porttitor non, mollis ac nisl. Etiam laoreet dui ac risus maximus, ac venenatis nunc euismod. Sed et eleifend orci, ac tincidunt sem. Fusce sit amet felis ut lorem congue dapibus. Maecenas nec lacus in enim faucibus consequat ac convallis tellus. Maecenas sed aliquet odio. Sed placerat iaculis lorem ut ultricies. Vestibulum posuere sapien quis sapien egestas elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aliquam tempor venenatis. In id leo a lorem congue rhoncus at id sapien. Phasellus consectetur, eros et porta posuere, dolor nunc hendrerit leo, lacinia euismod velit leo et nibh. Sed molestie felis eu diam interdum sagittis. Nullam quis ligula vitae metus vulputate tincidunt pharetra eget quam. Pellentesque mollis tellus sit amet ipsum congue, non condimentum velit molestie.\r\n\r\nAenean orci dui, aliquet vitae sagittis nec, porta ut diam. Vivamus consequat neque sed ipsum sodales imperdiet. Praesent sagittis eros eu sapien molestie, vitae congue arcu mollis. Quisque non lacus lorem. Nulla pretium ante sit amet neque eleifend porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consequat tortor efficitur mi commodo vestibulum. Sed ac odio sollicitudin, sollicitudin erat ut, sollicitudin orci. Mauris tincidunt nisl in egestas imperdiet. Suspendisse potenti. Proin gravida augue sed nisl tincidunt, eget egestas felis faucibus. Integer molestie purus at facilisis laoreet. Curabitur quis ante at diam vehicula fringilla. Aenean semper sagittis enim.', 'Bexhill, St Leonards on Sea', 'BX66 666', 'full_time', 'Automotive', 1536236250, 'TwGD7Mc9f2N', '1', '', 1, '[\"::1\"]', 0, '14/02/19 @ 11:28', 28, '', 0),
+(6, 5, 'danny0', '', 'Bartender', 0, 0, 0, 'bartender description', '/user_uploads/company_logos/DNIw1UAtrzt.png', 'balloonman@balloons.com', '647484746354647', '', 'london', 'e17', 'zero_hours', 'Charity', 1536236247, 'DNIw1UAtrzt', '1', '', 0, '', 1, '0', 0, '', 0),
+(7, 6, 'danny0', '', 'Hairdresser', 0, 0, 0, 'Hairdresser Description', '/user_uploads/company_logos/ZU-NFHYNcqy.png', 'fdsa', 'fda', 'fdsa', 'fdsa', 'fdsa', 'zero_hours', 'Aerospace', 1536236248, 'ZU-NFHYNcqy', '1', '', 0, '', 1, '0', 0, '', 0),
+(8, 7, 'melon22', 'holistic', 'Security Guard', 0, 0, 0, 'Well paid security required guards required to do security and guarding and such', '/user_uploads/company_logos/PR7OusbANTR.png', 'sdfs', 'sdfsdf', 'sdf', 'sdfsdf', 'sdfsdf', 'full_time', 'Apprenticeships', 1536236249, 'PR7OusbANTR', '1', '', 4, '[\"::1\"]', 0, '0', 9, '', 0),
+(9, 8, 'danny0', '', 'Superhero', 0, 0, 0, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum ut lectus et ultricies. Sed arcu orci, porta sit amet porttitor non, mollis ac nisl. Etiam laoreet dui ac risus maximus, ac venenatis nunc euismod. Sed et eleifend orci, ac tincidunt sem. Fusce sit amet felis ut lorem congue dapibus. Maecenas nec lacus in enim faucibus consequat ac convallis tellus. Maecenas sed aliquet odio. Sed placerat iaculis lorem ut ultricies. Vestibulum posuere sapien quis sapien egestas elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aliquam tempor venenatis. In id leo a lorem congue rhoncus at id sapien. Phasellus consectetur, eros et porta posuere, dolor nunc hendrerit leo, lacinia euismod velit leo et nibh. Sed molestie felis eu diam interdum sagittis. Nullam quis ligula vitae metus vulputate tincidunt pharetra eget quam. Pellentesque mollis tellus sit amet ipsum congue, non condimentum velit molestie.\r\n\r\nAenean orci dui, aliquet vitae sagittis nec, porta ut diam. Vivamus consequat neque sed ipsum sodales imperdiet. Praesent sagittis eros eu sapien molestie, vitae congue arcu mollis. Quisque non lacus lorem. Nulla pretium ante sit amet neque eleifend porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consequat tortor efficitur mi commodo vestibulum. Sed ac odio sollicitudin, sollicitudin erat ut, sollicitudin orci. Mauris tincidunt nisl in egestas imperdiet. Suspendisse potenti. Proin gravida augue sed nisl tincidunt, eget egestas felis faucibus. Integer molestie purus at facilisis laoreet. Curabitur quis ante at diam vehicula fringilla. Aenean semper sagittis enim.\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum ut lectus et ultricies. Sed arcu orci, porta sit amet porttitor non, mollis ac nisl. Etiam laoreet dui ac risus maximus, ac venenatis nunc euismod. Sed et eleifend orci, ac tincidunt sem. Fusce sit amet felis ut lorem congue dapibus. Maecenas nec lacus in enim faucibus consequat ac convallis tellus. Maecenas sed aliquet odio. Sed placerat iaculis lorem ut ultricies. Vestibulum posuere sapien quis sapien egestas elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aliquam tempor venenatis. In id leo a lorem congue rhoncus at id sapien. Phasellus consectetur, eros et porta posuere, dolor nunc hendrerit leo, lacinia euismod velit leo et nibh. Sed molestie felis eu diam interdum sagittis. Nullam quis ligula vitae metus vulputate tincidunt pharetra eget quam. Pellentesque mollis tellus sit amet ipsum congue, non condimentum velit molestie.\r\n\r\nAenean orci dui, aliquet vitae sagittis nec, porta ut diam. Vivamus consequat neque sed ipsum sodales imperdiet. Praesent sagittis eros eu sapien molestie, vitae congue arcu mollis. Quisque non lacus lorem. Nulla pretium ante sit amet neque eleifend porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consequat tortor efficitur mi commodo vestibulum. Sed ac odio sollicitudin, sollicitudin erat ut, sollicitudin orci. Mauris tincidunt nisl in egestas imperdiet. Suspendisse potenti. Proin gravida augue sed nisl tincidunt, eget egestas felis faucibus. Integer molestie purus at facilisis laoreet. Curabitur quis ante at diam vehicula fringilla. Aenean semper sagittis enim.', '/user_uploads/company_logos/xRxdxdmJjD_.png', 'balloonman@balloons.com', '647484746354647', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum ut lectus et ultricies. Sed arcu orci, porta sit amet porttitor non, mollis ac nisl. Etiam laoreet dui ac risus maximus, ac venenatis nunc euismod. Sed et eleifend orci, ac tincidunt sem. Fusce sit amet felis ut lorem congue dapibus. Maecenas nec lacus in enim faucibus consequat ac convallis tellus. Maecenas sed aliquet odio. Sed placerat iaculis lorem ut ultricies. Vestibulum posuere sapien quis sapien egestas elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aliquam tempor venenatis. In id leo a lorem congue rhoncus at id sapien. Phasellus consectetur, eros et porta posuere, dolor nunc hendrerit leo, lacinia euismod velit leo et nibh. Sed molestie felis eu diam interdum sagittis. Nullam quis ligula vitae metus vulputate tincidunt pharetra eget quam. Pellentesque mollis tellus sit amet ipsum congue, non condimentum velit molestie.\r\n\r\nAenean orci dui, aliquet vitae sagittis nec, porta ut diam. Vivamus consequat neque sed ipsum sodales imperdiet. Praesent sagittis eros eu sapien molestie, vitae congue arcu mollis. Quisque non lacus lorem. Nulla pretium ante sit amet neque eleifend porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consequat tortor efficitur mi commodo vestibulum. Sed ac odio sollicitudin, sollicitudin erat ut, sollicitudin orci. Mauris tincidunt nisl in egestas imperdiet. Suspendisse potenti. Proin gravida augue sed nisl tincidunt, eget egestas felis faucibus. Integer molestie purus at facilisis laoreet. Curabitur quis ante at diam vehicula fringilla. Aenean semper sagittis enim.', 'Bexhill, St Leonards on Sea', 'BX66 666', 'full_time', 'Automotive', 1536236240, 'xRxdxdmJjD_', '1', '', 1, '', 1, '0', 0, '1576321528', 1),
+(10, 9, 'danny0', 'Beer Co.', 'Beer Drinker', 0, 0, 0, 'yep just drink beer yum yum yum yum yum yum yum yumv  yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum yum', '/user_uploads/company_logos/TD_EaIbbgMk.png', 'balloonman@balloons.com', '647484746354647', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dictum ut lectus et ultricies. Sed arcu orci, porta sit amet porttitor non, mollis ac nisl. Etiam laoreet dui ac risus maximus, ac venenatis nunc euismod. Sed et eleifend orci, ac tincidunt sem. Fusce sit amet felis ut lorem congue dapibus. Maecenas nec lacus in enim faucibus consequat ac convallis tellus. Maecenas sed aliquet odio. Sed placerat iaculis lorem ut ultricies. Vestibulum posuere sapien quis sapien egestas elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis aliquam tempor venenatis. In id leo a lorem congue rhoncus at id sapien. Phasellus consectetur, eros et porta posuere, dolor nunc hendrerit leo, lacinia euismod velit leo et nibh. Sed molestie felis eu diam interdum sagittis. Nullam quis ligula vitae metus vulputate tincidunt pharetra eget quam. Pellentesque mollis tellus sit amet ipsum congue, non condimentum velit molestie.\r\n\r\nAenean orci dui, aliquet vitae sagittis nec, porta ut diam. Vivamus consequat neque sed ipsum sodales imperdiet. Praesent sagittis eros eu sapien molestie, vitae congue arcu mollis. Quisque non lacus lorem. Nulla pretium ante sit amet neque eleifend porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consequat tortor efficitur mi commodo vestibulum. Sed ac odio sollicitudin, sollicitudin erat ut, sollicitudin orci. Mauris tincidunt nisl in egestas imperdiet. Suspendisse potenti. Proin gravida augue sed nisl tincidunt, eget egestas felis faucibus. Integer molestie purus at facilisis laoreet. Curabitur quis ante at diam vehicula fringilla. Aenean semper sagittis enim.', 'Bexhill, St Leonards on Sea', 'BX66 666', 'full_time', 'Automotive', 1536236250, 'TD_EaIbbgMk', '1', '', 2, '', 1, '0', 1, '', 0),
+(146, 10, 'danny0', 'Briggs Torres Associates', 'Illo ut est porro magni', 2019, 6, 13, 'Est ratione nulla co', '/user_uploads/company_logos/qRutaBV1jC.png', 'bexos@mailinator.com', '+422-34-1573011', 'Laborum Nihil qui m', 'Similique ex officia et architecto asperiores porro est mole', 'Distinctio ', 'zero_hours', 'Digital', 1560441900, 'qRutaBV1jC', '1', '', 0, '', 1, '', 4, '1571414754', 1),
+(147, 11, 'danny0', 'Barnett Mcdowell Trading', 'boob job guys', 2019, 6, 16, 'Enim dolores blandit', '/user_uploads/company_logos/j05eMvNJfu.jpeg', 'jihobe@mailinator.com', '+912-95-1415532', 'Dolorum commodo do c', 'Dolore ex ut excepteur dolorem', 'Eum pariatur', 'zero_hours', 'Insurance', 1560676280, 'j05eMvNJfu', '1', '', 0, '', 1, '16/06/19 @ 18:22', 13, '1571649431', 1),
+(148, 12, 'danny0', 'Oliver and Hendricks Associates', 'Dolore dolor nesciunt reprehenderit distinctio Non animi ', 2019, 6, 16, 'Quis eum ut sapiente', '/user_uploads/company_logos/i3kINChBGV.png', 'peqevokel@mailinator.net', '+962-78-4926519', 'Delectus nostrum es', 'Incidunt est at distinctio Nulla nesciunt quia quidem diga', 'Eum voluptat', 'full_time', 'Healthcare', 1560677516, 'i3kINChBGV', '1', '', 0, '', 0, '29/07/19 @ 13:17', 22, '1571650335', 1),
+(149, 13, 'danny0', 'Mosley and Reese Inc', 'Deserunt deserunt facere deserunt explicabo Laboriosam pro', 2019, 6, 16, 'Enim qui nihil aliqu', '', 'lilymufa@mailinator.com', '+174-92-3035935', 'Omnis labore sint qu', 'Iusto sed porro ad facere officia hic consequatur Fuga Rep', 'Aut amet ea', 'full_time', 'Wholesale', 1560677550, 'LH5AGUmCCa', '0', '', 0, '', 0, '1560677550', 0, '1571650350', 0),
+(150, 14, 'danny0', 'Mosley and Reese Inc', 'Deserunt deserunt facere deserunt explicabo Laboriosam pro', 2019, 6, 16, 'Enim qui nihil aliqu', '', 'lilymufa@mailinator.com', '+174-92-3035935', 'Omnis labore sint qu', 'Iusto sed porro ad facere officia hic consequatur Fuga Rep', 'Aut amet ea', 'full_time', 'Wholesale', 1560677561, 'gn0GZhzbRl', '0', '', 0, '', 0, '1560677561', 0, '1571650361', 0),
+(151, 15, 'danny0', 'Hejejdkdjdid', 'Jdkdidd', 2019, 6, 16, 'Jdkdjrkdidkdndndnddddndjdkx', '/user_uploads/company_logos/Ht1Pl7ZzKN.jpg', 'a@man.com', '94738394844', '', 'Townsvilee', 'Bn111758', 'full_time', 'Apprenticeships', 1560677939, 'Ht1Pl7ZzKN', '1', '', 0, '', 0, '1560677939', 11, '1571679105', 1),
+(152, 16, 'danny0', 'Hejejdkdjdid', 'Jdkdidd', 2019, 6, 16, 'Jdkdjrkdidkdndndnddddndjdkx', '/user_uploads/company_logos/geHjNQ4vsR.jpg', 'a@man.com', '94738394844', '', 'Townsvilee', 'Bn111758', 'full_time', 'Apprenticeships', 1560677989, 'geHjNQ4vsR', '1', '', 0, '', 0, '1560677989', 23, '1571650865', 1),
+(153, 17, 'danny0', 'Riley Gray Inc', 'Vel voluptates adipisci ea rerum enim accusantium excepteur ', 2019, 7, 16, 'Et quia ut amet qui', '', 'zocyrux@mailinator.com', '+527-44-4986342', 'Modi dolor ullamco m', 'Illo temporibus in eos nemo ut maiores voluptate adipisci fu', 'Quod ut veli', 'full_time', 'Estate Agency', 1563274383, 'xFuVI5V7tU', '0', '', 0, '', 0, '1563274383', 0, '1574247183', 0),
+(154, 18, 'danny0', 'Riley Gray Inc', 'Vel voluptates adipisci ea rerum enim accusantium excepteur ', 2019, 7, 16, 'Et quia ut amet qui', '', 'zocyrux@mailinator.com', '+527-44-4986342', 'Modi dolor ullamco m', 'Illo temporibus in eos nemo ut maiores voluptate adipisci fu', 'Quod ut veli', 'full_time', 'Estate Agency', 1563274424, 'ySnBGOeOBK', '0', '', 0, '', 0, '1563274424', 0, '1574247224', 0),
+(155, 19, 'danny0', 'Riley Gray Inc', 'Vel voluptates adipisci ea rerum enim accusantium excepteur ', 2019, 7, 16, 'Et quia ut amet qui', '', 'zocyrux@mailinator.com', '+527-44-4986342', 'Modi dolor ullamco m', 'Illo temporibus in eos nemo ut maiores voluptate adipisci fu', 'Quod ut veli', 'full_time', 'Estate Agency', 1563274440, 'sUE8GnX6Gt', '0', '', 0, '', 0, '1563274441', 0, '1574247241', 0),
+(156, 20, 'danny0', 'Patrick and Delgado Inc', 'Fugiat deserunt velit obcaecati dolore nemo blanditiis quas ', 2019, 7, 16, 'Omnis consequat Fug', '/user_uploads/company_logos/buuJvJPcxL.png', 'synaboho@mailinator.net', '+886-94-3573812', 'Consequuntur non fug', 'Est veniam sed molestias dignissimos ex consequat Cupidata', 'Tenetur mini', 'zero_hours', 'Estate Agency', 1563274469, 'buuJvJPcxL', '1', '', 0, '', 0, '1563274470', 5, '1574247305', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `reset_password`
+--
+
+DROP TABLE IF EXISTS `reset_password`;
+CREATE TABLE `reset_password` (
+  `id` bigint(255) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `reset_hash` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=ascii;
+
+--
+-- Dumping data for table `reset_password`
+--
+
+INSERT INTO `reset_password` (`id`, `username`, `reset_hash`) VALUES
+(0, 'danny0', '42fc534c90c4e219b0bd428dd202a7e63649df71c8d1d70ac0386c62732fa6c80b6cf961feae43dc9c8e4d07db77edb9e628faa0aa65f5e14070a44a309b6d2c');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `rate_limit`
+--
+
+DROP TABLE IF EXISTS `rate_limit`;
+CREATE TABLE `rate_limit` (
+  `id` bigint(255) NOT NULL,
+  `local_ip` varchar(255) NOT NULL,
+  `router_ip` varchar(255) NOT NULL,
+  `attempt_counter` bigint(255) NOT NULL,
+  `period_end` int(255) NOT NULL,
+  `release_time` varchar(255) NOT NULL,
+  `lock_out` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=ascii;
+
+--
+-- Dumping data for table `rate_limit`
+--
+
+INSERT INTO `rate_limit` (`id`, `local_ip`, `router_ip`, `attempt_counter`, `period_end`, `release_time`, `lock_out`) VALUES
+(410, '', '::1', 9, 1560442081, '', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `site_data`
+--
+
+DROP TABLE IF EXISTS `site_data`;
+CREATE TABLE `site_data` (
+  `sql_id` bigint(255) NOT NULL,
+  `home_page_views` bigint(255) NOT NULL,
+  `listings_created` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `site_data`
+--
+
+INSERT INTO `site_data` (`sql_id`, `home_page_views`, `listings_created`) VALUES
+(0, 5614, '5');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `spam_ips`
+--
+
+DROP TABLE IF EXISTS `spam_ips`;
+CREATE TABLE `spam_ips` (
+  `id` int(255) NOT NULL,
+  `router_ip` varchar(255) NOT NULL,
+  `user_ip` varchar(255) NOT NULL,
+  `user_id` varchar(255) NOT NULL,
+  `offence_count` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=ascii;
+
+--
+-- Dumping data for table `spam_ips`
+--
+
+INSERT INTO `spam_ips` (`id`, `router_ip`, `user_ip`, `user_id`, `offence_count`) VALUES
+(35, '::1', 'not_available', 'not found', '4');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
+  `user_id` bigint(255) NOT NULL,
+  `id` int(255) NOT NULL,
+  `gender` varchar(255) NOT NULL,
+  `first_name` varchar(255) DEFAULT NULL,
+  `middle_name` varchar(255) DEFAULT NULL,
+  `last_name` varchar(255) DEFAULT NULL,
+  `username` varchar(255) DEFAULT NULL,
+  `email` varchar(350) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `uk_date` varchar(255) DEFAULT NULL,
+  `uk_time` varchar(255) DEFAULT NULL,
+  `ip` varchar(255) DEFAULT NULL,
+  `login_token` varchar(255) NOT NULL,
+  `live_jobs` varchar(255) NOT NULL,
+  `update_count` varchar(255) NOT NULL,
+  `last_updated` varchar(255) NOT NULL,
+  `saved_jobs` varchar(255) NOT NULL,
+  `deleted` varchar(255) NOT NULL,
+  `admin` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=ascii;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`user_id`, `id`, `gender`, `first_name`, `middle_name`, `last_name`, `username`, `email`, `password`, `uk_date`, `uk_time`, `ip`, `login_token`, `live_jobs`, `update_count`, `last_updated`, `saved_jobs`, `deleted`, `admin`) VALUES
+(1, 0, 'Male', 'Danny', '', 'Osborn', 'mrchips', 'b@c.com', '$2y$10$LohnmxLRKyS7R1o2x9aLK.tg5dXgnXbhq8.1GQlF6H1UhVepA4.8G', '5 / Sep / 2018', '16:21:14', '::1', '2e0cf7f3910cad7c6ac0010cfcdb53143d93dacbdfc2d8cdccb9311cb1907363004fceb46aced7b0b6e155a3eabecc5558ffa01cb7da4006575ccf050e85f9b4', '', '', '', '[\"PR7OusbANTR\",\"pk5JLHaDqT8\",\"TwGD7Mc9f2N\",\"TD_EaIbbgMk\"]', '', ''),
+(24, 4, 'Male', 'Danny', 'M', 'Osborne', 'danny0', 'danny@osborneplastering.co.uk', '$2y$10$LohnmxLRKyS7R1o2x9aLK.tg5dXgnXbhq8.1GQlF6H1UhVepA4.8G', '14 / Jun / 2019', '17:21:12', '86.142.193.227', 'f7285a5bb44f1342b06999a5a74a2432be545578853729407e0e33b0cd44cc66c4a3c00ea7279ab9a0e8f6243318d1d31af781f352a4fb5af1e84e6eaed0eb0f', '0', '0', '1560529272', '[\"TwGD7Mc9f2N\",\"geHjNQ4vsR\",\"i3kINChBGV\",\"pk5JLHaDqT8\",\"PR7OusbANTR\"]', '', '1');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `verify_account`
+--
+
+DROP TABLE IF EXISTS `verify_account`;
+CREATE TABLE `verify_account` (
+  `id` bigint(255) NOT NULL,
+  `username` varchar(255) DEFAULT NULL,
+  `verify_lock` varchar(255) NOT NULL,
+  `signup_hash` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=ascii;
+
+--
+-- Dumping data for table `verify_account`
+--
+
+INSERT INTO `verify_account` (`id`, `username`, `verify_lock`, `signup_hash`) VALUES
+(1, 'lyzuwamado', '1', '%242y%2410%24%2Fa.3m6UI72lc%2FFWtbg0IG.%2F1tOU%2FJ9a2eGRyyrFWBy9VWADPgk7Du'),
+(2, 'xudahusur', '1', '%242y%2410%24mEWg4GsMPj5dWPWCEzWbb.JnJYKvMsR5AJbP.y2wqYVrxnf3by53.'),
+(3, 'cusyq', '1', '%242y%2410%248GTPBVCCK5avr5.Z8p2L1OzAaKXMaDw7PrCXa.e9NTQyBpaFQWHx6');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `listed_jobs`
+--
+ALTER TABLE `listed_jobs`
+  ADD PRIMARY KEY (`sql_id`);
+
+--
+-- Indexes for table `reset_password`
+--
+ALTER TABLE `reset_password`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `rate_limit`
+--
+ALTER TABLE `rate_limit`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `site_data`
+--
+ALTER TABLE `site_data`
+  ADD PRIMARY KEY (`sql_id`);
+
+--
+-- Indexes for table `spam_ips`
+--
+ALTER TABLE `spam_ips`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`user_id`);
+
+--
+-- Indexes for table `verify_account`
+--
+ALTER TABLE `verify_account`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `listed_jobs`
+--
+ALTER TABLE `listed_jobs`
+  MODIFY `sql_id` bigint(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=157;
+
+--
+-- AUTO_INCREMENT for table `rate_limit`
+--
+ALTER TABLE `rate_limit`
+  MODIFY `id` bigint(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=411;
+
+--
+-- AUTO_INCREMENT for table `site_data`
+--
+ALTER TABLE `site_data`
+  MODIFY `sql_id` bigint(255) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `spam_ips`
+--
+ALTER TABLE `spam_ips`
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `user_id` bigint(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+
+--
+-- AUTO_INCREMENT for table `verify_account`
+--
+ALTER TABLE `verify_account`
+  MODIFY `id` bigint(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;

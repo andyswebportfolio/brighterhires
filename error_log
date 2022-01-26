@@ -1,0 +1,439 @@
+[14-Oct-2019 08:41:53 UTC] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 4
+[14-Oct-2019 08:41:53 UTC] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 4
+[14-Oct-2019 08:41:53 UTC] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/index.php on line 4
+[14-Oct-2019 08:41:53 UTC] PHP Warning:  include(ip_security_lockout.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:41:53 UTC] PHP Warning:  include(ip_security_lockout.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:41:53 UTC] PHP Warning:  include(): Failed opening 'ip_security_lockout.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:41:53 UTC] PHP Warning:  require(head_tag.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:41:53 UTC] PHP Warning:  require(head_tag.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:41:53 UTC] PHP Fatal error:  require(): Failed opening required 'head_tag.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:41:56 UTC] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 4
+[14-Oct-2019 08:41:56 UTC] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 4
+[14-Oct-2019 08:41:56 UTC] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/index.php on line 4
+[14-Oct-2019 08:41:56 UTC] PHP Warning:  include(ip_security_lockout.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:41:56 UTC] PHP Warning:  include(ip_security_lockout.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:41:56 UTC] PHP Warning:  include(): Failed opening 'ip_security_lockout.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:41:56 UTC] PHP Warning:  require(head_tag.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:41:56 UTC] PHP Warning:  require(head_tag.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:41:56 UTC] PHP Fatal error:  require(): Failed opening required 'head_tag.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:42:35 UTC] PHP Warning:  include(settings.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/functions.php on line 6
+[14-Oct-2019 08:42:35 UTC] PHP Warning:  include(settings.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/functions.php on line 6
+[14-Oct-2019 08:42:35 UTC] PHP Warning:  include(): Failed opening 'settings.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/functions.php on line 6
+[14-Oct-2019 08:42:35 UTC] PHP Warning:  include(ip_security_lockout.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:42:35 UTC] PHP Warning:  include(ip_security_lockout.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:42:35 UTC] PHP Warning:  include(): Failed opening 'ip_security_lockout.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:42:35 UTC] PHP Warning:  require(head_tag.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:42:35 UTC] PHP Warning:  require(head_tag.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:42:35 UTC] PHP Fatal error:  require(): Failed opening required 'head_tag.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:42:36 UTC] PHP Warning:  include(settings.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/functions.php on line 6
+[14-Oct-2019 08:42:36 UTC] PHP Warning:  include(settings.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/functions.php on line 6
+[14-Oct-2019 08:42:36 UTC] PHP Warning:  include(): Failed opening 'settings.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/functions.php on line 6
+[14-Oct-2019 08:42:36 UTC] PHP Warning:  include(ip_security_lockout.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:42:36 UTC] PHP Warning:  include(ip_security_lockout.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:42:36 UTC] PHP Warning:  include(): Failed opening 'ip_security_lockout.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:42:36 UTC] PHP Warning:  require(head_tag.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:42:36 UTC] PHP Warning:  require(head_tag.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:42:36 UTC] PHP Fatal error:  require(): Failed opening required 'head_tag.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:42:38 UTC] PHP Warning:  include(settings.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/functions.php on line 6
+[14-Oct-2019 08:42:38 UTC] PHP Warning:  include(settings.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/functions.php on line 6
+[14-Oct-2019 08:42:38 UTC] PHP Warning:  include(): Failed opening 'settings.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/functions.php on line 6
+[14-Oct-2019 08:42:38 UTC] PHP Warning:  include(ip_security_lockout.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:42:38 UTC] PHP Warning:  include(ip_security_lockout.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:42:38 UTC] PHP Warning:  include(): Failed opening 'ip_security_lockout.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/index.php on line 5
+[14-Oct-2019 08:42:38 UTC] PHP Warning:  require(head_tag.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:42:38 UTC] PHP Warning:  require(head_tag.php): failed to open stream: No such file or directory in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:42:38 UTC] PHP Fatal error:  require(): Failed opening required 'head_tag.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/thejobsw/public_html/index.php on line 10
+[14-Oct-2019 08:59:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 08:59:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 08:59:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 08:59:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 09:03:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 09:20:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 09:51:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 09:51:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 10:18:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 10:21:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 10:21:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 10:28:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 10:32:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/search.php(15): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 10:32:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/list_a_job.php(19): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 10:32:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/popup_page.php(16): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 10:32:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 10:32:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/list_a_job.php(19): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 10:32:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/popup_page.php(16): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 10:32:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/search.php(15): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 10:50:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/login.php(20): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 10:53:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/login.php(20): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:13:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/login.php(20): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:14:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/login.php(20): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:14:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:15:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:16:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:16:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:16:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/login.php(20): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:16:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(50): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:20:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_logo_area_2() in /home/thejobsw/public_html/header_plain.php:17
+Stack trace:
+#0 /home/thejobsw/public_html/ts_and_cs.php(13): include()
+#1 {main}
+  thrown in /home/thejobsw/public_html/header_plain.php on line 17
+[14-Oct-2019 11:23:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(2877): pdo_return('SELECT `first_n...')
+#2 /home/thejobsw/public_html/my_account.php(78): get_pdo_data('users', Array)
+#3 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:23:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_logo_area_2() in /home/thejobsw/public_html/header_plain.php:17
+Stack trace:
+#0 /home/thejobsw/public_html/ts_and_cs.php(13): include()
+#1 {main}
+  thrown in /home/thejobsw/public_html/header_plain.php on line 17
+[14-Oct-2019 11:23:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_logo_area_2() in /home/thejobsw/public_html/header_plain.php:17
+Stack trace:
+#0 /home/thejobsw/public_html/cookies.php(13): include()
+#1 {main}
+  thrown in /home/thejobsw/public_html/header_plain.php on line 17
+[14-Oct-2019 11:23:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:3087
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(3087): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1894): pdo_return_secure('job_cat_1', 'listed_jobs', 'page_link', NULL)
+#2 /home/thejobsw/public_html/functions.php(1882): get_existing_category_x('1')
+#3 /home/thejobsw/public_html/list_a_job.php(74): select_job_categories()
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 3087
+[14-Oct-2019 11:26:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(27): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:26:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(27): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:26:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(27): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:27:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(27): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:27:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(27): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:27:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(27): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:27:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(51): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:33:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(51): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:34:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(51): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:34:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(51): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:35:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/functions.php(1401): pdo_return('SELECT `admin` ...')
+#2 /home/thejobsw/public_html/header.php(51): dropdown_bar_top()
+#3 /home/thejobsw/public_html/index.php(13): include('/home/thejobsw/...')
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 12:01:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'thejobsw_login'@'localhost' to database 'thejobsw_u221194601_brighter_hires' in /home/thejobsw/public_html/functions.php:3092
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(3092): PDO->__construct('mysql:host=loca...', 'thejobsw_login', 'Cube=c00l')
+#1 /home/thejobsw/public_html/functions.php(1899): pdo_return_secure('job_cat_1', 'listed_jobs', 'page_link', NULL)
+#2 /home/thejobsw/public_html/functions.php(1887): get_existing_category_x('1')
+#3 /home/thejobsw/public_html/list_a_job.php(74): select_job_categories()
+#4 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 3092
+[14-Oct-2019 12:54:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_logo_area_2() in /home/thejobsw/public_html/header_plain.php:17
+Stack trace:
+#0 /home/thejobsw/public_html/cookies.php(13): include()
+#1 {main}
+  thrown in /home/thejobsw/public_html/header_plain.php on line 17
+[14-Oct-2019 12:54:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_logo_area_2() in /home/thejobsw/public_html/header_plain.php:17
+Stack trace:
+#0 /home/thejobsw/public_html/cookies.php(13): include()
+#1 {main}
+  thrown in /home/thejobsw/public_html/header_plain.php on line 17
+[14-Oct-2019 12:56:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_logo_area_2() in /home/thejobsw/public_html/header_plain.php:17
+Stack trace:
+#0 /home/thejobsw/public_html/cookies.php(13): include()
+#1 {main}
+  thrown in /home/thejobsw/public_html/header_plain.php on line 17
+[14-Oct-2019 12:57:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_logo_area_2() in /home/thejobsw/public_html/header_plain.php:17
+Stack trace:
+#0 /home/thejobsw/public_html/cookies.php(13): include()
+#1 {main}
+  thrown in /home/thejobsw/public_html/header_plain.php on line 17
+[19-Oct-2019 11:30:13 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3158
+[24-Oct-2019 12:29:36 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3158
+[24-Oct-2019 12:29:36 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3158
+[25-Oct-2019 04:10:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3158
+[28-Oct-2019 13:16:18 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3158
+[28-Oct-2019 16:42:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3158
+[02-Nov-2019 11:54:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3168
+[02-Nov-2019 12:00:07 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3168
+[02-Nov-2019 12:00:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3168
+[02-Nov-2019 12:00:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3168
+[12-Dec-2019 23:00:28 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3169
+[19-Dec-2019 22:37:20 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3169
+[15-Jan-2020 16:24:06 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3169
+[01-Feb-2020 02:06:25 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3169
+[06-Feb-2020 05:19:16 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3169
+[20-Feb-2020 17:26:36 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/thejobsw/public_html/functions.php on line 3169

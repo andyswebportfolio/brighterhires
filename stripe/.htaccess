@@ -1,0 +1,9 @@
+<Files .examples>
+Order Allow,Deny
+Deny from all
+</Files>
+
+<Files examples/oauth>
+Order Allow,Deny
+Deny from all
+</Files>

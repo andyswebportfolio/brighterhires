@@ -1,0 +1,48 @@
+[14-Oct-2019 10:40:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/json/search_results.php(40): pdo_return('SELECT id FROM ...')
+#2 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:18:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/json/search_results.php(40): pdo_return('SELECT id FROM ...')
+#2 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:38:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'gpq8rpsx4bxi'@'localhost' (using password: YES) in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'gpq8rpsx4bxi', 'yIPd-o-z3>>')
+#1 /home/thejobsw/public_html/json/search_results.php(40): pdo_return('SELECT id FROM ...')
+#2 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:56:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'thejobsw_login'@'localhost' to database 'thejobsw_u221194601_brighter_hires' in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'thejobsw_login', 'Cube=c00l')
+#1 /home/thejobsw/public_html/json/search_results.php(40): pdo_return('SELECT id FROM ...')
+#2 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 11:56:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'thejobsw_login'@'localhost' to database 'thejobsw_u221194601_brighter_hires' in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'thejobsw_login', 'Cube=c00l')
+#1 /home/thejobsw/public_html/json/search_results.php(40): pdo_return('SELECT id FROM ...')
+#2 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 12:01:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'thejobsw_login'@'localhost' to database 'thejobsw_u221194601_brighter_hires' in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'thejobsw_login', 'Cube=c00l')
+#1 /home/thejobsw/public_html/json/search_results.php(40): pdo_return('SELECT id FROM ...')
+#2 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 12:01:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'thejobsw_login'@'localhost' to database 'thejobsw_u221194601_brighter_hires' in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'thejobsw_login', 'Cube=c00l')
+#1 /home/thejobsw/public_html/json/search_results.php(40): pdo_return('SELECT id FROM ...')
+#2 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223
+[14-Oct-2019 12:14:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'thejobsw_login'@'localhost' to database 'thejobsw_u221194601_brighter_hires' in /home/thejobsw/public_html/functions.php:223
+Stack trace:
+#0 /home/thejobsw/public_html/functions.php(223): PDO->__construct('mysql:host=loca...', 'thejobsw_login', 'Cube=c00l')
+#1 /home/thejobsw/public_html/json/search_results.php(40): pdo_return('SELECT id FROM ...')
+#2 {main}
+  thrown in /home/thejobsw/public_html/functions.php on line 223

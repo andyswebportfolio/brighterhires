@@ -1,0 +1,377 @@
+/*Largest Tablet Breakpoint*/
+/*ipad pro + 1px width*/
+@media(max-width:1025px) {
+   
+#index_search_button {
+ position:relative;
+   bottom:86px;
+}
+    
+#nav_links {
+    display:none;
+}
+    
+#nav_logo, #nav_links, #nav_user, #nav_icons{
+    width:33.33%;
+    text-align:center;
+}
+
+.form_container {
+    width:70%;
+    left:15%;
+    text-align:center;
+    border-radius: 5px;
+    position:relative;
+}
+    
+#popup_centefr {
+    width:50%;
+    margin-left:25%;
+}
+    
+.banner_header {
+   font-size:calc(6vh + 6vw);
+   position:relative;
+   top:5vh;
+}
+    
+.index_search input[type=text]{
+    width:600px;
+    height:60px;
+    font-size:calc(1.8vw + 1.8vh);
+}
+    
+.search_result_job_description {
+ display:none;
+}
+
+    
+#help {
+    padding-left:100px;
+    padding-right:100px;
+}
+
+#help_content {
+
+    padding:25px;
+}
+
+#help h1 {
+    padding:10px;
+}
+    
+.payment_box {
+    padding:0px;
+    width:80%;
+    margin-left:10%;
+}
+    
+#terms {
+    margin:20px;
+    text-align:left;
+}
+    
+.fade {
+ background-image:none;
+ background-color:#ffedee;
+}
+ 
+.search_result_my_acc {
+ min-height:180px;
+}
+   
+#menu_dropdown ul li {
+ font-size:1.5em;
+}
+   
+img#logo_desktop {
+ height:35px;
+ position:relative;
+ top:5px;
+}
+   
+#hero_image_tablet
+{
+ position:relative;
+ top:220vh;
+ max-height:330px;
+ /*max-width:550px;*/
+}
+   
+#hero_image_desktop
+{
+ position:relative;
+ top:6vh;
+ max-height:65vh;
+ /*max-width:550px;*/
+}
+    
+}
+
+/*Tablet Breakpoint +1px*/
+/*Google Chrome Spec*/
+/*1/6/18*/
+
+@media(max-width:769px) {
+   
+#index_search_button {
+ position:relative;
+   bottom:86px;
+}
+    
+#nav_icons {
+    width:50%;
+}
+#nav_logo {
+width:50%;
+  
+}
+   
+
+#nav_user {
+    display:none;
+}
+.footer_column {
+    float: left;
+    width: 100%;
+    padding:0px;
+    text-align:center;
+    color:white;
+    height:145px;
+    padding-top:15px;
+    padding-bottom:0px;
+    color:black;
+}
+    
+#footer ul li {
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+#footer_bottom {
+    background-color:grey;
+    height:10px;
+    border-radius:0px 5px;
+}
+   
+#footer_column_4 {
+ height:160px;   
+}
+
+    
+.banner_header {
+    font-size:calc(5.5vh + 5.5vw);
+}
+
+.index_search input[type=text]{
+    width:80%;
+    height:60px;
+    font-size:calc(1.6vw + 1.6vh);
+}
+    
+#popup_center {
+    width:80%;
+    margin-left:10%;
+}
+    
+.search_result_column_l {
+    display:none;
+}
+    
+.search_logo_mobile {
+    display:initial;
+    height:40px;
+    position:relative;
+    right:-7.5vw;
+    border-radius:2px;
+    max-width:50px;
+}
+ 
+ /*Is a copy of above due to id change to class*/
+ .search_result img {
+    display:initial;
+    height:40px;
+    position:relative;
+    right:-7.5vw;
+    border-radius:1px;
+    max-width:50px;
+}
+ 
+.search_logo_my_acc_mobile {
+ display:initial;
+}
+ 
+.search_result_column_l_my_acc {
+ display:none;
+}
+ 
+.search_result_column_r_my_acc {
+ width:35%; 
+}
+
+.search_result_my_acc {
+ min-height:230px;
+}
+ 
+    
+#dropdown_search_bar {
+    width:90%;
+    left:0px;
+}
+
+#dropdown_search_button {
+    visibility: hidden;
+}
+    
+.hours_icon {
+    border-radius:5px;
+    width:75%;
+    left:50%;
+    position:relative;
+    padding:5px;
+    font-size:0.8em;
+}
+    
+.job_search_title {
+    font-size:1.2em
+}
+
+.job_search_description {
+    font-size:0.8em;
+}
+    
+#help {
+    padding:20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#help_content {
+    padding:5px;
+}
+
+#help h1 {
+    text-align:center;
+    padding:5px;
+}
+    
+.payment_box {
+    padding:0px;
+    width:90%;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:5%;
+}
+    
+.account_column {
+    width: 96%;
+    left:2%;
+}
+    
+.content_bg {
+    width:100%;
+    padding-left:20px;
+    padding-right:20px;
+}
+ 
+.content {
+  
+}
+    
+.white {
+ background-image:none;
+ background-color:white;
+}
+    
+.fade {
+ background-image:none;
+ background-color:#ffedee;
+}
+ 
+.highlight_box--padding {
+ padding-left:10px;
+ padding-right:10px;
+}
+
+#upload_form_container {
+ width:80%;
+ left:10%;
+ height:750px;
+}
+ 
+.btnSubmit, #crop {
+ margin-top: 10px;
+ position:relative;
+ top:-45px;
+}
+   
+.btnSubmit { 
+ position:relative;
+ top:-0px;
+}
+ 
+ form.example input[type=text] {
+  padding: 12px;
+  font-size: 14px;
+}
+ 
+#search_icon_2 {
+ height:20px;
+ position:relative;
+ top:0px;
+}
+ 
+#saved_jobs_text_input {
+ width:85%; 
+}
+ 
+#getSavedJobsButton {
+ width:15%; 
+}
+   
+.content#index {
+background-color: #ade5ff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(350,607,345)'%3E%3Cstop offset='0' stop-color='%23ade5ff'/%3E%3Cstop offset='1' stop-color='%230052e6'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='521' height='434.2' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.06'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+   
+#hero_image_tablet
+{
+ position:relative;
+ top:12vh;
+ max-height:330px;
+ /*max-width:550px;*/
+}
+   
+#hero_image_desktop {
+ display:none;
+}
+
+#hero_image_tablet {
+ display:initial;
+}
+   
+#hero_image_mobile {
+ display:none;
+}
+   
+.index_search input[type=text]{
+ font-size:calc(2.1vw + 2.1vh);
+}
+   
+   #search_form_container {
+      position:relative;
+      top:-7vh;
+   }
+
+ 
+/*Mirror on any media query
+ based css file*/
+@media (max-aspect-ratio: 11/20) {
+ .banner_header {
+  font-size:calc(3.5vw + 3.5vh);
+ }
+}
+ 
+}

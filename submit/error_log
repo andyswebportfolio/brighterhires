@@ -1,0 +1,34 @@
+[19-Oct-2019 11:31:22 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/thejobsw/public_html/submit/save_listing.php on line 64
+[19-Oct-2019 11:31:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/thejobsw/public_html/submit/save_listing.php on line 64
+[19-Oct-2019 11:31:33 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/thejobsw/public_html/submit/save_listing.php on line 64
+[19-Oct-2019 11:31:52 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/thejobsw/public_html/submit/save_listing.php on line 64
+[27-Oct-2019 20:39:08 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/thejobsw/public_html/submit/save_listing.php on line 64
+[28-Oct-2019 17:41:03 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[28-Oct-2019 17:41:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[28-Oct-2019 17:42:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[28-Oct-2019 17:42:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[28-Oct-2019 17:43:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[28-Oct-2019 17:45:58 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[28-Oct-2019 17:46:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[28-Oct-2019 17:46:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[28-Oct-2019 17:47:38 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[28-Oct-2019 17:49:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[29-Oct-2019 11:52:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[29-Oct-2019 11:57:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[29-Oct-2019 11:57:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[29-Oct-2019 12:01:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[29-Oct-2019 12:49:45 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[29-Oct-2019 16:52:00 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/thejobsw/public_html/submit/create_account_submit.php on line 708
+[02-Nov-2019 11:51:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/thejobsw/public_html/submit/save_listing.php on line 64
+[02-Nov-2019 11:54:45 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/thejobsw/public_html/submit/save_listing.php on line 64
+[02-Nov-2019 12:54:57 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/thejobsw/public_html/submit/save_listing.php on line 64
+[12-Nov-2019 15:11:32 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 150994944 bytes) in /home/thejobsw/public_html/functions.php on line 3283
+[12-Nov-2019 15:45:52 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 150994944 bytes) in /home/thejobsw/public_html/functions.php on line 3283
+[12-Nov-2019 15:48:44 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 150994944 bytes) in /home/thejobsw/public_html/functions.php on line 3283
+[12-Nov-2019 15:49:04 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 150994944 bytes) in /home/thejobsw/public_html/functions.php on line 3283
+[15-Nov-2019 16:07:35 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 150994944 bytes) in /home/thejobsw/public_html/functions.php on line 3283
+[15-Nov-2019 16:07:46 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 150994944 bytes) in /home/thejobsw/public_html/functions.php on line 3283
+[18-Nov-2019 15:01:56 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 150994944 bytes) in /home/thejobsw/public_html/functions.php on line 3284
+[18-Nov-2019 15:02:51 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 150994944 bytes) in /home/thejobsw/public_html/functions.php on line 3284
+[18-Nov-2019 15:03:17 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 150994944 bytes) in /home/thejobsw/public_html/functions.php on line 3284
+[02-Dec-2019 12:13:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/thejobsw/public_html/submit/save_listing.php on line 64
