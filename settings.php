@@ -39,6 +39,9 @@ $_SESSION['stripe_private_key'] = 'sk_live_HtXeVOMan5WLsWVEWGacE1Yc';
 //! Needs to be copied manually for CRON Jobs {
 ////////////////////////////////////////
 /*
+
+//Fill these in to connect database
+
     $_SESSION['pdo_servername'] = '';
     $_SESSION['pdo_username'] = '';
     $_SESSION['pdo_password'] = '';
