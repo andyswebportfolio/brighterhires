@@ -34,4 +34,19 @@ if ($_SERVER['HTTP_HOST'] == 'localhost:8888') {
 $_SESSION['stripe_public_key'] = 'pk_live_i6DkhFTYlCg0vaxEWMctlwws';
 $_SESSION['stripe_private_key'] = 'sk_live_HtXeVOMan5WLsWVEWGacE1Yc';
 
+//** Version for GitHub */
+
+//! Needs to be copied manually for CRON Jobs {
+////////////////////////////////////////
+/*
+    $_SESSION['pdo_servername'] = '';
+    $_SESSION['pdo_username'] = '';
+    $_SESSION['pdo_password'] = '';
+    $_SESSION['pdo_database'] = '';
+
+   //Stripe Keys
+   $_SESSION['stripe_public_key'] = '';
+   $_SESSION['stripe_private_key'] = '';
+*/
+
 ?>
